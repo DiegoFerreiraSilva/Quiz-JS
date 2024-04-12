@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    color: white;
+    margin-top: 50px;
+}
+
+footer {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+    background: white;
+    width: 400px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(26, 16, 16, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.pergunta {
+    text-align: left;
+    border-bottom: 1px solid #4286f4;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.pergunta p:first-child {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #4286f4;
+    margin-bottom: 5px;
+}
+
+.informacoes {
+    color: #4286f4;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+input[type="button"] {
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background: #4286f4;
+    transition: background 1s ease;
+    border-radius: 15px;
+}
+
+input[type="button"]:hover {
+    background: #373B44;
+}
